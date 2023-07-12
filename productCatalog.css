@@ -208,6 +208,7 @@
 
 .listCard li button {
   background-color: rgba(72, 72, 72, 0.333);
+  cursor: pointer;
   border: none;
   width: 20px;
   height: 20px;
