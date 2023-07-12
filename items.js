@@ -185,7 +185,7 @@ document.getElementsByClassName('grid-container')[0].innerHTML = categories.map(
                     <h3>${title} K</h3>
                     <h4>${description}</h4>
                     <span class='discount-price'>Rs.${discountPrice}</span><span class='original-price'>Rs.${originalPrice}}</span><span class='offer'>(${offer})</span>
-                    <div class = 'addToCart'><i class='fa-regular fa-heart ' onclick = 'addToCart(${id})'></i></div>
+                    <div class = 'addToCart'><i class='fa-solid fa-bag-shopping  ' onclick = 'addToCart(${id})'></i></div>
                 </div>
             </div>`
         )
